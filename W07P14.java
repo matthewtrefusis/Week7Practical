@@ -4,7 +4,7 @@ public class W07P14 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
-    String input = "START";
+    String input;
 
     while(true){    
       input = scanner.nextLine();
