@@ -9,10 +9,10 @@ public class W07P03 {
     public static void main(String[] args) {
         Path dir = Path.of("sourceDirectory");
 
-        try(Stream<Path> stream = Files.list(dir)) {
+        try (Stream<Path> stream = Files.list(dir)) {
             stream.forEach(System.out::println);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.print(e);
         }
     }
 }

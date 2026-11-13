@@ -1,2 +1,7 @@
-Line 1: Welcome to Java I/O.
-Line 2: This is a test file.
+0001       Alice           £    100.00
+0002       Bob             £    200.00
+0003       Charlie         £    200.00
+0004       David           £    150.00
+0005       Eve             £    300.00
+0006       Frank           £    150.00
+0007       Grace           £    200.00
