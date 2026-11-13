@@ -10,7 +10,7 @@ public class W07P05 {
         Path path = Path.of("output.txt");
         try (Formatter formatter = new Formatter(path.toFile())) {
             for (int i = 0; i < ids.length; i++) {
-                formatter.format("%04d       %-15s £%10.2f%n", ids[i], names[i], balances[i]);
+                formatter.format("%s %.2f\n", names[i], balances[i]);
             }
         } catch (Exception e) {
             System.err.print(e);
